@@ -101,6 +101,7 @@ public class Main {
     if (end - start < 1) return false;
 
     // Loop through each character.
+    // @todo Can stop half way through string check.
     for (int i = start; i < end; i++) {
       j = end - k;
       if (chars[i] != chars[j]) return false;
